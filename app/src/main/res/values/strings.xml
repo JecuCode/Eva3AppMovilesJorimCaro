@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gestión de Remedios</string>
+    <string-array name="presentacion_array">
+        <item>Comprimido</item>
+        <item>Líquido</item>
+        <item>Jarabe</item>
+        <item>Polvo</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

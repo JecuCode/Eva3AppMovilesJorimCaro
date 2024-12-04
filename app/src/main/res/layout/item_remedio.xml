@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/white">
+
+    <!-- Nombre del remedio -->
+    <TextView
+        android:id="@+id/tv_nombre_remedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del remedio"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <!-- Cantidad -->
+    <TextView
+        android:id="@+id/tv_cantidad_remedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad: 10"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Fecha de vencimiento -->
+    <TextView
+        android:id="@+id/tv_fecha_vencimiento_remedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vence: 01/01/2024"
+        android:textSize="16sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_miligramos_remedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miligramos:"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_presentacion_remedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presentación:"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_descripcion_remedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción:"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Botones de acción -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Botón Modificar -->
+        <Button
+            android:id="@+id/btn_modificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modificar"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Botón Eliminar -->
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar" />
+    </LinearLayout>
+</LinearLayout>
+
